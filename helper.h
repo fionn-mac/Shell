@@ -1,0 +1,10 @@
+int main_execute(char **);
+char ** main_delim_split(char *);
+int main_launch(char **);
+char * main_read_line(void);
+void main_loop(void);
+char * replace_str(char *);
+int name(void);
+void int_handler(int signum);
+void chld_handler(int signum);
+void main_delete(pid_t proc_id);
